@@ -1,0 +1,52 @@
+# Настройки для Supabase CLI (supabase start / supabase link + supabase config push).
+# Для облачного проекта те же значения задаются в Dashboard → Authentication.
+project_id = "rubikon"
+
+[api]
+schemas = ["public"]
+max_rows = 1000
+
+[db]
+major_version = 15
+
+[auth]
+site_url = "https://rubikon.example.com"
+additional_redirect_urls = ["https://rubikon.example.com/auth/callback/", "http://localhost:4173/auth/callback/"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_signup = true
+minimum_password_length = 8
+password_requirements = "lower_upper_letters_digits"
+
+[auth.rate_limit]
+email_sent = 4
+sign_in_sign_ups = 30
+token_verifications = 30
+
+[auth.email]
+enable_signup = true
+enable_confirmations = true
+double_confirm_changes = true
+secure_password_change = true
+max_frequency = "60s"
+
+[auth.email.template.confirmation]
+subject = "Подтвердите почту — Рубикон"
+content_path = "./supabase/templates/confirmation.html"
+
+[auth.email.template.recovery]
+subject = "Смена пароля — Рубикон"
+content_path = "./supabase/templates/recovery.html"
+
+# Edge Functions: вебхуки Payme/Click и вход через Telegram вызываются без JWT пользователя
+[functions.payme]
+verify_jwt = false
+[functions.click]
+verify_jwt = false
+[functions.telegram-auth]
+verify_jwt = false
+[functions.payments]
+verify_jwt = true
+[functions.rebuild-site]
+verify_jwt = true

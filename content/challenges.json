@@ -1,0 +1,2396 @@
+[
+  {
+    "slug": "cold-shower",
+    "category": "habits",
+    "level": "medium",
+    "days": 30,
+    "icon": "snowflake",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "30 дней холодного душа",
+        "short": "Каждое утро заканчивайте душ холодной водой. Начинаем с 30 секунд.",
+        "goal": "Выработать устойчивую утреннюю привычку и натренировать реакцию на стресс. К финишу — 3 минуты холодной воды без подготовки.",
+        "rules": [
+          "Чекин до 12:00 по местному времени",
+          "Время под холодной водой растет каждую неделю",
+          "Пропуск одного дня допустим, двух подряд — серия сгорает",
+          "Отчет: короткая заметка о самочувствии"
+        ],
+        "phases": [
+          {
+            "title": "Адаптация",
+            "tasks": [
+              "30 секунд холодной воды в конце душа",
+              "Дышите медленно: вдох на 4 счета, выдох на 6",
+              "45 секунд, начиная с ног"
+            ]
+          },
+          {
+            "title": "Привыкание",
+            "tasks": [
+              "1 минута холодной воды",
+              "1 минута 15 секунд, без задержки дыхания",
+              "Запишите, как изменилась бодрость к обеду"
+            ]
+          },
+          {
+            "title": "Устойчивость",
+            "tasks": [
+              "2 минуты холодной воды",
+              "Начните душ сразу с холодной воды",
+              "2 минуты 30 секунд"
+            ]
+          },
+          {
+            "title": "Финиш",
+            "tasks": [
+              "3 минуты холодной воды",
+              "3 минуты и запись итогов недели"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "30 kunlik sovuq dush",
+        "short": "Har tong dushni sovuq suv bilan yakunlang. 30 soniyadan boshlaymiz.",
+        "goal": "Barqaror ertalabki odat hosil qilish va stressga bardoshni chiniqtirish. Marraga kelib — tayyorgarliksiz 3 daqiqa sovuq suv.",
+        "rules": [
+          "Belgi mahalliy vaqt bilan soat 12:00 gacha qoʻyiladi",
+          "Sovuq suv ostidagi vaqt har hafta oshib boradi",
+          "Bir kun oʻtkazib yuborish mumkin, ketma-ket ikki kun — seriya uziladi",
+          "Hisobot: oʻzingizni qanday his qilayotganingiz haqida qisqa qayd"
+        ],
+        "phases": [
+          {
+            "title": "Moslashuv",
+            "tasks": [
+              "Dush oxirida 30 soniya sovuq suv",
+              "Sekin nafas oling: 4 sanoqda nafas oling, 6 sanoqda chiqaring",
+              "45 soniya, oyoqlardan boshlab"
+            ]
+          },
+          {
+            "title": "Koʻnikish",
+            "tasks": [
+              "1 daqiqa sovuq suv",
+              "1 daqiqa 15 soniya, nafasni ushlamasdan",
+              "Tushlikkacha tetiklik qanday oʻzgarganini yozib qoʻying"
+            ]
+          },
+          {
+            "title": "Barqarorlik",
+            "tasks": [
+              "2 daqiqa sovuq suv",
+              "Dushni darhol sovuq suvdan boshlang",
+              "2 daqiqa 30 soniya"
+            ]
+          },
+          {
+            "title": "Marra",
+            "tasks": [
+              "3 daqiqa sovuq suv",
+              "3 daqiqa va hafta yakunlarini yozib qoʻyish"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "30 Days of Cold Showers",
+        "short": "Finish every morning shower with cold water. We start with 30 seconds.",
+        "goal": "Build a lasting morning habit and train your stress response. By the finish: 3 minutes of cold water with no warm-up.",
+        "rules": [
+          "Check in before 12:00 local time",
+          "Time under cold water goes up every week",
+          "Missing one day is fine; miss two in a row and your streak resets",
+          "Report: a short note on how you feel"
+        ],
+        "phases": [
+          {
+            "title": "Adaptation",
+            "tasks": [
+              "30 seconds of cold water at the end of your shower",
+              "Breathe slowly: in for 4 counts, out for 6",
+              "45 seconds, starting with your legs"
+            ]
+          },
+          {
+            "title": "Getting used to it",
+            "tasks": [
+              "1 minute of cold water",
+              "1 minute 15 seconds, without holding your breath",
+              "Note how your energy by lunchtime has changed"
+            ]
+          },
+          {
+            "title": "Resilience",
+            "tasks": [
+              "2 minutes of cold water",
+              "Start your shower with cold water right away",
+              "2 minutes 30 seconds"
+            ]
+          },
+          {
+            "title": "Finish",
+            "tasks": [
+              "3 minutes of cold water",
+              "3 minutes and a write-up of the week"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "run-100",
+    "category": "sport",
+    "level": "hard",
+    "days": 30,
+    "icon": "footprints",
+    "nextStart": "2026-10-12",
+    "proof": "required",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "100 км за месяц",
+        "short": "Накопительный бег: в сумме 100 километров за 30 дней в любом темпе.",
+        "goal": "Пробежать 100 км за календарный месяц, выстроив режим из 4–5 пробежек в неделю без травм.",
+        "rules": [
+          "Засчитываются пробежки с трека (GPS-приложение)",
+          "Минимальная дистанция одной пробежки — 2 км",
+          "Не более 15 км за день",
+          "Один день отдыха после каждых трех пробежек"
+        ],
+        "phases": [
+          {
+            "title": "Втягивание",
+            "tasks": [
+              "Легкая пробежка 3 км",
+              "Отдых и растяжка 15 минут",
+              "Пробежка 4 км в разговорном темпе"
+            ]
+          },
+          {
+            "title": "Объем",
+            "tasks": [
+              "Пробежка 5 км",
+              "Интервалы: 6 × 400 м",
+              "Отдых",
+              "Длительная 7 км"
+            ]
+          },
+          {
+            "title": "Пик",
+            "tasks": [
+              "Пробежка 5 км",
+              "Темповая 4 км",
+              "Длительная 10 км",
+              "Отдых"
+            ]
+          },
+          {
+            "title": "Добор",
+            "tasks": [
+              "Пробежка до цели по остатку",
+              "Восстановительная 3 км",
+              "Финальная пробежка"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Bir oyda 100 km",
+        "short": "Jamlanma yugurish: 30 kunda istalgan surʼatda jami 100 kilometr.",
+        "goal": "Kalendar oyi davomida 100 km yugurish va jarohatsiz haftasiga 4–5 ta yugurish tartibini yoʻlga qoʻyish.",
+        "rules": [
+          "Trek yozilgan yugurishlar hisoblanadi (GPS ilova)",
+          "Bitta yugurishning eng kam masofasi — 2 km",
+          "Kuniga 15 km dan oshmasin",
+          "Har uchta yugurishdan keyin bir kun dam olish"
+        ],
+        "phases": [
+          {
+            "title": "Kirishish",
+            "tasks": [
+              "Yengil yugurish, 3 km",
+              "Dam olish va 15 daqiqa choʻzilish",
+              "Suhbat surʼatida 4 km yugurish"
+            ]
+          },
+          {
+            "title": "Hajm",
+            "tasks": [
+              "5 km yugurish",
+              "Intervallar: 6 × 400 m",
+              "Dam olish",
+              "Uzoq masofa, 7 km"
+            ]
+          },
+          {
+            "title": "Choʻqqi",
+            "tasks": [
+              "5 km yugurish",
+              "Temp yugurish, 4 km",
+              "Uzoq masofa, 10 km",
+              "Dam olish"
+            ]
+          },
+          {
+            "title": "Yakunlash",
+            "tasks": [
+              "Maqsadgacha qolgan masofani yugurish",
+              "Tiklanish yugurishi, 3 km",
+              "Yakuniy yugurish"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "100 km in a Month",
+        "short": "Cumulative running: 100 kilometres total in 30 days, at any pace.",
+        "goal": "Run 100 km in a calendar month while building an injury-free routine of 4–5 runs a week.",
+        "rules": [
+          "Only runs with a recorded track count (GPS app)",
+          "Minimum distance per run: 2 km",
+          "No more than 15 km per day",
+          "One rest day after every three runs"
+        ],
+        "phases": [
+          {
+            "title": "Easing in",
+            "tasks": [
+              "Easy 3 km run",
+              "Rest and 15 minutes of stretching",
+              "4 km run at a conversational pace"
+            ]
+          },
+          {
+            "title": "Volume",
+            "tasks": [
+              "5 km run",
+              "Intervals: 6 × 400 m",
+              "Rest",
+              "Long run, 7 km"
+            ]
+          },
+          {
+            "title": "Peak",
+            "tasks": [
+              "5 km run",
+              "Tempo run, 4 km",
+              "Long run, 10 km",
+              "Rest"
+            ]
+          },
+          {
+            "title": "Closing the gap",
+            "tasks": [
+              "Run whatever is left to reach the goal",
+              "Recovery run, 3 km",
+              "Final run"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "deep-work",
+    "category": "growth",
+    "level": "medium",
+    "days": 21,
+    "icon": "brain",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "21 день глубокой работы",
+        "short": "Ежедневные блоки работы без уведомлений: от 60 до 180 минут.",
+        "goal": "Научиться удерживать фокус на одной задаче и закрывать важные дела до обеда.",
+        "rules": [
+          "Телефон в другой комнате на время блока",
+          "Одна задача на блок, заранее записанная",
+          "Чекин: что сделано за блок, 1–2 предложения"
+        ],
+        "phases": [
+          {
+            "title": "Разгон",
+            "tasks": [
+              "Блок 60 минут",
+              "Блок 60 минут + план на завтра",
+              "Блок 75 минут"
+            ]
+          },
+          {
+            "title": "Нормализация",
+            "tasks": [
+              "Блок 90 минут",
+              "Два блока по 60 минут",
+              "Блок 90 минут без почты до полудня"
+            ]
+          },
+          {
+            "title": "Глубина",
+            "tasks": [
+              "Блок 120 минут",
+              "Блок 150 минут",
+              "Блок 180 минут и ретро"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "21 kunlik chuqur ish",
+        "short": "Bildirishnomalarsiz kundalik ish bloklari: 60 dan 180 daqiqagacha.",
+        "goal": "Bitta vazifaga diqqatni jamlashni va muhim ishlarni tushlikkacha yakunlashni oʻrganish.",
+        "rules": [
+          "Blok davomida telefon boshqa xonada turadi",
+          "Har blokka bitta vazifa, oldindan yozib qoʻyilgan",
+          "Belgi: blokda nima qilindi, 1–2 gap"
+        ],
+        "phases": [
+          {
+            "title": "Tezlanish",
+            "tasks": [
+              "60 daqiqalik blok",
+              "60 daqiqalik blok + ertangi reja",
+              "75 daqiqalik blok"
+            ]
+          },
+          {
+            "title": "Meʼyorlash",
+            "tasks": [
+              "90 daqiqalik blok",
+              "60 daqiqadan ikkita blok",
+              "90 daqiqalik blok, peshingacha pochtasiz"
+            ]
+          },
+          {
+            "title": "Chuqurlik",
+            "tasks": [
+              "120 daqiqalik blok",
+              "150 daqiqalik blok",
+              "180 daqiqalik blok va retrospektiva"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "21 Days of Deep Work",
+        "short": "Daily notification-free work blocks: from 60 to 180 minutes.",
+        "goal": "Learn to hold focus on a single task and get important work done before lunch.",
+        "rules": [
+          "Phone stays in another room during the block",
+          "One task per block, written down in advance",
+          "Check-in: what you got done in the block, 1–2 sentences"
+        ],
+        "phases": [
+          {
+            "title": "Ramp-up",
+            "tasks": [
+              "60-minute block",
+              "60-minute block + plan for tomorrow",
+              "75-minute block"
+            ]
+          },
+          {
+            "title": "Settling in",
+            "tasks": [
+              "90-minute block",
+              "Two 60-minute blocks",
+              "90-minute block, no email before noon"
+            ]
+          },
+          {
+            "title": "Depth",
+            "tasks": [
+              "120-minute block",
+              "150-minute block",
+              "180-minute block and a retro"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "mvp-14",
+    "category": "business",
+    "level": "hard",
+    "days": 14,
+    "icon": "rocket",
+    "nextStart": "2026-10-17",
+    "proof": "required",
+    "priceUzs": 149000,
+    "content": {
+      "ru": {
+        "title": "MVP за 14 дней",
+        "short": "От идеи до первого платящего клиента за две недели.",
+        "goal": "Запустить минимальную версию продукта, получить 10 интервью и первую оплату.",
+        "rules": [
+          "Ежедневный отчет с артефактом: скрин, ссылка или таблица",
+          "Код и дизайн — любые инструменты, включая no-code",
+          "Демо-день на 14-й день"
+        ],
+        "phases": [
+          {
+            "title": "Проблема",
+            "tasks": [
+              "Сформулируйте гипотезу в одном предложении",
+              "Найдите 20 потенциальных клиентов",
+              "Проведите 3 интервью",
+              "Проведите еще 4 интервью",
+              "Выпишите 3 главные боли"
+            ]
+          },
+          {
+            "title": "Решение",
+            "tasks": [
+              "Лендинг с одной кнопкой",
+              "Прототип ключевого сценария",
+              "Покажите прототип 3 людям",
+              "Настройте прием оплаты"
+            ]
+          },
+          {
+            "title": "Запуск",
+            "tasks": [
+              "Запустите рекламу на 1 000 ₽",
+              "Напишите 30 холодных писем",
+              "Соберите обратную связь",
+              "Подготовьте демо",
+              "Демо-день и итоги"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "14 kunda MVP",
+        "short": "Ikki hafta ichida gʻoyadan birinchi toʻlovchi mijozgacha.",
+        "goal": "Mahsulotning minimal versiyasini ishga tushirish, 10 ta intervyu va birinchi toʻlovni olish.",
+        "rules": [
+          "Artefaktli kundalik hisobot: skrinshot, havola yoki jadval",
+          "Kod va dizayn — istalgan vositalar, jumladan no-code",
+          "14-kuni demo-kun"
+        ],
+        "phases": [
+          {
+            "title": "Muammo",
+            "tasks": [
+              "Gipotezani bitta gapda ifodalang",
+              "20 ta potensial mijoz toping",
+              "3 ta intervyu oʻtkazing",
+              "Yana 4 ta intervyu oʻtkazing",
+              "3 ta asosiy muammoni yozib chiqing"
+            ]
+          },
+          {
+            "title": "Yechim",
+            "tasks": [
+              "Bitta tugmali lending",
+              "Asosiy ssenariy prototipi",
+              "Prototipni 3 kishiga koʻrsating",
+              "Toʻlov qabul qilishni sozlang"
+            ]
+          },
+          {
+            "title": "Ishga tushirish",
+            "tasks": [
+              "1 000 ₽ lik reklama yoqing",
+              "30 ta sovuq xat yozing",
+              "Fikr-mulohazalarni yigʻing",
+              "Demoni tayyorlang",
+              "Demo-kun va yakunlar"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "MVP in 14 Days",
+        "short": "From idea to your first paying customer in two weeks.",
+        "goal": "Launch a minimum version of the product, run 10 interviews and get your first payment.",
+        "rules": [
+          "Daily report with an artifact: a screenshot, link or spreadsheet",
+          "Code and design: any tools, no-code included",
+          "Demo day on day 14"
+        ],
+        "phases": [
+          {
+            "title": "Problem",
+            "tasks": [
+              "State your hypothesis in one sentence",
+              "Find 20 potential customers",
+              "Run 3 interviews",
+              "Run 4 more interviews",
+              "Write down the top 3 pain points"
+            ]
+          },
+          {
+            "title": "Solution",
+            "tasks": [
+              "A landing page with one button",
+              "Prototype the key user flow",
+              "Show the prototype to 3 people",
+              "Set up payments"
+            ]
+          },
+          {
+            "title": "Launch",
+            "tasks": [
+              "Run ads with a 1,000 ₽ budget",
+              "Send 30 cold emails",
+              "Collect feedback",
+              "Prepare your demo",
+              "Demo day and wrap-up"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "read-20",
+    "category": "habits",
+    "level": "easy",
+    "days": 30,
+    "icon": "book-open",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "20 страниц в день",
+        "short": "Минимум 20 страниц ежедневно. За месяц — две-три книги.",
+        "goal": "Вернуть привычку читать и закончить хотя бы две книги за месяц.",
+        "rules": [
+          "Засчитываются бумажные и электронные книги",
+          "Аудиокниги — 30 минут вместо 20 страниц",
+          "Чекин: одна мысль из прочитанного"
+        ],
+        "phases": [
+          {
+            "title": "Старт",
+            "tasks": [
+              "Выберите книгу и прочтите 20 страниц",
+              "20 страниц + одна цитата",
+              "20 страниц перед сном без телефона"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Kuniga 20 sahifa",
+        "short": "Har kuni kamida 20 sahifa. Bir oyda — ikki-uchta kitob.",
+        "goal": "Kitob oʻqish odatini qaytarish va bir oyda kamida ikkita kitobni tugatish.",
+        "rules": [
+          "Qogʻoz va elektron kitoblar hisoblanadi",
+          "Audiokitob — 20 sahifa oʻrniga 30 daqiqa",
+          "Belgi: oʻqiganingizdan bitta fikr"
+        ],
+        "phases": [
+          {
+            "title": "Start",
+            "tasks": [
+              "Kitob tanlang va 20 sahifa oʻqing",
+              "20 sahifa + bitta iqtibos",
+              "Uxlashdan oldin telefonsiz 20 sahifa"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "20 Pages a Day",
+        "short": "At least 20 pages every day. Two or three books a month.",
+        "goal": "Get back into the reading habit and finish at least two books in a month.",
+        "rules": [
+          "Paper books and e-books both count",
+          "Audiobooks: 30 minutes instead of 20 pages",
+          "Check-in: one idea from what you read"
+        ],
+        "phases": [
+          {
+            "title": "Start",
+            "tasks": [
+              "Pick a book and read 20 pages",
+              "20 pages + one quote",
+              "20 pages before bed, no phone"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "calls-50",
+    "category": "business",
+    "level": "medium",
+    "days": 10,
+    "icon": "phone",
+    "nextStart": "2026-10-11",
+    "proof": "optional",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "50 звонков клиентам",
+        "short": "Пять разговоров с клиентами каждый день в течение десяти дней.",
+        "goal": "Снять страх холодных звонков и собрать базу из 50 разговоров с выводами.",
+        "rules": [
+          "Звонок засчитывается от 3 минут разговора",
+          "После каждого звонка — заметка в CRM",
+          "Скрипт можно менять каждые 10 звонков"
+        ],
+        "phases": [
+          {
+            "title": "Разогрев",
+            "tasks": [
+              "5 звонков текущим клиентам",
+              "5 звонков ушедшим клиентам",
+              "5 звонков по рекомендациям"
+            ]
+          },
+          {
+            "title": "Холодные",
+            "tasks": [
+              "5 холодных звонков",
+              "5 холодных звонков и правка скрипта",
+              "5 звонков с предложением встречи"
+            ]
+          },
+          {
+            "title": "Сделки",
+            "tasks": [
+              "5 повторных звонков",
+              "5 звонков с коммерческим предложением",
+              "5 звонков с закрытием",
+              "Итоги и таблица конверсии"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Mijozlarga 50 ta qoʻngʻiroq",
+        "short": "Oʻn kun davomida har kuni mijozlar bilan beshta suhbat.",
+        "goal": "Sovuq qoʻngʻiroqlar qoʻrquvini yengish va xulosalari bilan 50 ta suhbatdan iborat baza yigʻish.",
+        "rules": [
+          "Qoʻngʻiroq kamida 3 daqiqalik suhbat boʻlsa hisoblanadi",
+          "Har bir qoʻngʻiroqdan keyin — CRM da qayd",
+          "Skriptni har 10 ta qoʻngʻiroqda oʻzgartirish mumkin"
+        ],
+        "phases": [
+          {
+            "title": "Qizish",
+            "tasks": [
+              "Joriy mijozlarga 5 ta qoʻngʻiroq",
+              "Ketgan mijozlarga 5 ta qoʻngʻiroq",
+              "Tavsiyalar boʻyicha 5 ta qoʻngʻiroq"
+            ]
+          },
+          {
+            "title": "Sovuq qoʻngʻiroqlar",
+            "tasks": [
+              "5 ta sovuq qoʻngʻiroq",
+              "5 ta sovuq qoʻngʻiroq va skriptni tuzatish",
+              "Uchrashuv taklifi bilan 5 ta qoʻngʻiroq"
+            ]
+          },
+          {
+            "title": "Bitimlar",
+            "tasks": [
+              "5 ta takroriy qoʻngʻiroq",
+              "Tijoriy taklif bilan 5 ta qoʻngʻiroq",
+              "Bitimni yopish uchun 5 ta qoʻngʻiroq",
+              "Yakunlar va konversiya jadvali"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "50 Client Calls",
+        "short": "Five conversations with clients every day for ten days.",
+        "goal": "Get over the fear of cold calling and build a log of 50 conversations with takeaways.",
+        "rules": [
+          "A call counts if the conversation lasts 3+ minutes",
+          "After every call, add a note in your CRM",
+          "You can change the script every 10 calls"
+        ],
+        "phases": [
+          {
+            "title": "Warm-up",
+            "tasks": [
+              "5 calls to current clients",
+              "5 calls to former clients",
+              "5 calls to referrals"
+            ]
+          },
+          {
+            "title": "Cold calls",
+            "tasks": [
+              "5 cold calls",
+              "5 cold calls and a script revision",
+              "5 calls proposing a meeting"
+            ]
+          },
+          {
+            "title": "Deals",
+            "tasks": [
+              "5 follow-up calls",
+              "5 calls with a commercial offer",
+              "5 closing calls",
+              "Wrap-up and a conversion table"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pushups-100",
+    "category": "sport",
+    "level": "hard",
+    "days": 30,
+    "icon": "dumbbell",
+    "nextStart": null,
+    "proof": "optional",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "100 отжиманий в день",
+        "short": "Сотня отжиманий ежедневно, разбивайте на подходы как удобно.",
+        "goal": "Выйти на 100 отжиманий в день и увеличить максимум в одном подходе вдвое.",
+        "rules": [
+          "Засчитываются только полные повторения",
+          "Подходы распределяйте в течение дня",
+          "Тест максимума в 1-й и 30-й день"
+        ],
+        "phases": [
+          {
+            "title": "База",
+            "tasks": [
+              "Тест: максимум за один подход",
+              "60 отжиманий",
+              "70 отжиманий",
+              "Отдых: растяжка плеч"
+            ]
+          },
+          {
+            "title": "Рост",
+            "tasks": [
+              "80 отжиманий",
+              "90 отжиманий",
+              "100 отжиманий"
+            ]
+          },
+          {
+            "title": "Стабильность",
+            "tasks": [
+              "100 отжиманий",
+              "100 отжиманий, подходы по 20+"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Kuniga 100 ta otjimaniye",
+        "short": "Har kuni yuzta otjimaniye — yondashuvlarga qulay tarzda boʻling.",
+        "goal": "Kuniga 100 ta otjimaniyega chiqish va bitta yondashuvdagi maksimumni ikki barobar oshirish.",
+        "rules": [
+          "Faqat toʻliq takrorlar hisoblanadi",
+          "Yondashuvlarni kun davomida taqsimlang",
+          "Maksimum testi 1- va 30-kunlari"
+        ],
+        "phases": [
+          {
+            "title": "Baza",
+            "tasks": [
+              "Test: bitta yondashuvdagi maksimum",
+              "60 ta otjimaniye",
+              "70 ta otjimaniye",
+              "Dam olish: yelkalarni choʻzish"
+            ]
+          },
+          {
+            "title": "Oʻsish",
+            "tasks": [
+              "80 ta otjimaniye",
+              "90 ta otjimaniye",
+              "100 ta otjimaniye"
+            ]
+          },
+          {
+            "title": "Barqarorlik",
+            "tasks": [
+              "100 ta otjimaniye",
+              "100 ta otjimaniye, har yondashuvda 20+"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "100 Push-ups a Day",
+        "short": "A hundred push-ups every day, split into sets however you like.",
+        "goal": "Work up to 100 push-ups a day and double your max in a single set.",
+        "rules": [
+          "Only full reps count",
+          "Spread your sets throughout the day",
+          "Max test on day 1 and day 30"
+        ],
+        "phases": [
+          {
+            "title": "Base",
+            "tasks": [
+              "Test: max reps in one set",
+              "60 push-ups",
+              "70 push-ups",
+              "Rest: shoulder stretches"
+            ]
+          },
+          {
+            "title": "Growth",
+            "tasks": [
+              "80 push-ups",
+              "90 push-ups",
+              "100 push-ups"
+            ]
+          },
+          {
+            "title": "Consistency",
+            "tasks": [
+              "100 push-ups",
+              "100 push-ups in sets of 20+"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "no-sugar",
+    "category": "habits",
+    "level": "medium",
+    "days": 21,
+    "icon": "candy-off",
+    "nextStart": "2026-10-19",
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "21 день без сахара",
+        "short": "Без добавленного сахара, сладких напитков и десертов три недели.",
+        "goal": "Перезагрузить вкусовые привычки и стабилизировать энергию в течение дня.",
+        "rules": [
+          "Фрукты и ягоды разрешены",
+          "Читайте состав: сахар, сиропы, мальтодекстрин",
+          "Чекин: фото одного приема пищи"
+        ],
+        "phases": [
+          {
+            "title": "Детокс",
+            "tasks": [
+              "Уберите сладкое из дома",
+              "День без сладких напитков",
+              "Найдите 3 замены десерту"
+            ]
+          },
+          {
+            "title": "Привычка",
+            "tasks": [
+              "Изучите состав 5 привычных продуктов",
+              "Приготовьте завтрак без сахара",
+              "День без перекусов"
+            ]
+          },
+          {
+            "title": "Закрепление",
+            "tasks": [
+              "Сходите в кафе и выберите без сахара",
+              "Запишите изменения в самочувствии"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "21 kun shakarsiz",
+        "short": "Uch hafta qoʻshilgan shakar, shirin ichimliklar va desertlarsiz.",
+        "goal": "Taʼm odatlarini qayta sozlash va kun davomida energiyani barqarorlashtirish.",
+        "rules": [
+          "Mevalar va rezavorlar mumkin",
+          "Tarkibni oʻqing: shakar, siroplar, maltodekstrin",
+          "Belgi: bitta ovqatlanishning surati"
+        ],
+        "phases": [
+          {
+            "title": "Detoks",
+            "tasks": [
+              "Uyingizdan shirinliklarni olib tashlang",
+              "Shirin ichimliklarsiz bir kun",
+              "Desertga 3 ta muqobil toping"
+            ]
+          },
+          {
+            "title": "Odat",
+            "tasks": [
+              "Odatiy 5 ta mahsulot tarkibini oʻrganing",
+              "Shakarsiz nonushta tayyorlang",
+              "Gazaklarsiz bir kun"
+            ]
+          },
+          {
+            "title": "Mustahkamlash",
+            "tasks": [
+              "Kafega borib, shakarsiz taom tanlang",
+              "Oʻzingizni his qilishdagi oʻzgarishlarni yozib qoʻying"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "21 Days Without Sugar",
+        "short": "Three weeks with no added sugar, sweet drinks or desserts.",
+        "goal": "Reset your taste habits and keep your energy steady throughout the day.",
+        "rules": [
+          "Fruit and berries are allowed",
+          "Read the labels: sugar, syrups, maltodextrin",
+          "Check-in: a photo of one meal"
+        ],
+        "phases": [
+          {
+            "title": "Detox",
+            "tasks": [
+              "Clear the sweets out of your home",
+              "A day with no sweet drinks",
+              "Find 3 dessert substitutes"
+            ]
+          },
+          {
+            "title": "Habit",
+            "tasks": [
+              "Check the ingredients of 5 foods you usually buy",
+              "Make a sugar-free breakfast",
+              "A day with no snacking"
+            ]
+          },
+          {
+            "title": "Locking it in",
+            "tasks": [
+              "Go to a café and order something sugar-free",
+              "Write down how you feel different"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "english-15",
+    "category": "growth",
+    "level": "easy",
+    "days": 60,
+    "icon": "languages",
+    "nextStart": "2026-10-10",
+    "proof": "none",
+    "priceUzs": 49000,
+    "content": {
+      "ru": {
+        "title": "15 минут английского",
+        "short": "Ежедневная микропрактика: слова, аудирование и короткие фразы вслух.",
+        "goal": "Выучить 600 слов в контексте и привыкнуть к ежедневной языковой практике.",
+        "rules": [
+          "15 минут в один заход",
+          "Чекин: 10 новых слов или фраза дня",
+          "Каждое воскресенье — повторение недели"
+        ],
+        "phases": [
+          {
+            "title": "Ежедневно",
+            "tasks": [
+              "10 новых слов + примеры",
+              "Подкаст 10 минут + 5 слов",
+              "Скажите вслух 5 фраз о своем дне",
+              "Короткая статья и пересказ",
+              "Повторение недели"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "15 daqiqa ingliz tili",
+        "short": "Kundalik mikromashq: soʻzlar, tinglab tushunish va qisqa iboralarni ovoz chiqarib aytish.",
+        "goal": "Kontekstda 600 ta soʻz oʻrganish va har kungi til amaliyotiga koʻnikish.",
+        "rules": [
+          "Bir oʻtirishda 15 daqiqa",
+          "Belgi: 10 ta yangi soʻz yoki kun iborasi",
+          "Har yakshanba — haftani takrorlash"
+        ],
+        "phases": [
+          {
+            "title": "Har kuni",
+            "tasks": [
+              "10 ta yangi soʻz + misollar",
+              "10 daqiqa podkast + 5 ta soʻz",
+              "Kuningiz haqida 5 ta iborani ovoz chiqarib ayting",
+              "Qisqa maqola va uni qayta hikoya qilish",
+              "Haftani takrorlash"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "15 Minutes of English",
+        "short": "Daily micro-practice: vocabulary, listening and short phrases out loud.",
+        "goal": "Learn 600 words in context and get used to practising the language every day.",
+        "rules": [
+          "15 minutes in one sitting",
+          "Check-in: 10 new words or a phrase of the day",
+          "Every Sunday: review the week"
+        ],
+        "phases": [
+          {
+            "title": "Daily",
+            "tasks": [
+              "10 new words + examples",
+              "10-minute podcast + 5 words",
+              "Say 5 phrases about your day out loud",
+              "A short article and a retelling",
+              "Review the week"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "steps-10k",
+    "category": "sport",
+    "level": "easy",
+    "days": 30,
+    "icon": "activity",
+    "nextStart": null,
+    "proof": "optional",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "10 000 шагов",
+        "short": "Простая цель на каждый день. Подходит для старта после перерыва.",
+        "goal": "Ежедневно проходить 10 000 шагов и увеличить среднюю активность за месяц.",
+        "rules": [
+          "Данные из шагомера или фитнес-браслета",
+          "Скриншот итога дня до полуночи"
+        ],
+        "phases": [
+          {
+            "title": "Ежедневно",
+            "tasks": [
+              "10 000 шагов",
+              "Прогулка 30 минут после ужина",
+              "Пешком до работы или магазина"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "10 000 qadam",
+        "short": "Har kun uchun oddiy maqsad. Tanaffusdan keyin boshlash uchun mos.",
+        "goal": "Har kuni 10 000 qadam yurish va bir oy ichida oʻrtacha faollikni oshirish.",
+        "rules": [
+          "Maʼlumotlar qadam hisoblagich yoki fitnes-bilaguzukdan olinadi",
+          "Kun yakuni skrinshoti yarim tungacha"
+        ],
+        "phases": [
+          {
+            "title": "Har kuni",
+            "tasks": [
+              "10 000 qadam",
+              "Kechki ovqatdan keyin 30 daqiqa sayr",
+              "Ishga yoki doʻkonga piyoda boring"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "10,000 Steps",
+        "short": "A simple goal for every day. Great for getting back into it after a break.",
+        "goal": "Walk 10,000 steps every day and raise your average activity over the month.",
+        "rules": [
+          "Data from a pedometer or fitness band",
+          "Screenshot of your daily total before midnight"
+        ],
+        "phases": [
+          {
+            "title": "Daily",
+            "tasks": [
+              "10,000 steps",
+              "30-minute walk after dinner",
+              "Walk to work or the shops"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "content-30",
+    "category": "business",
+    "level": "medium",
+    "days": 30,
+    "icon": "pen-line",
+    "nextStart": "2026-10-16",
+    "proof": "required",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "30 постов за 30 дней",
+        "short": "Публикуйте экспертный контент каждый день и найдите свой голос.",
+        "goal": "Выстроить регулярность публикаций и проверить, какие темы дают охват.",
+        "rules": [
+          "Любая площадка: блог, соцсети, Telegram",
+          "Пост от 500 знаков",
+          "Чекин: ссылка на публикацию"
+        ],
+        "phases": [
+          {
+            "title": "Ежедневно",
+            "tasks": [
+              "Пост-история из практики",
+              "Разбор частой ошибки клиентов",
+              "Чек-лист или подборка",
+              "Мнение по новости отрасли",
+              "Ответ на вопрос подписчика"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "30 kunda 30 ta post",
+        "short": "Har kuni ekspert kontent joylang va oʻz ovozingizni toping.",
+        "goal": "Muntazam nashr qilish tartibini yoʻlga qoʻyish va qaysi mavzular qamrov berishini tekshirish.",
+        "rules": [
+          "Istalgan platforma: blog, ijtimoiy tarmoqlar, Telegram",
+          "Post kamida 500 belgidan iborat",
+          "Belgi: nashrga havola"
+        ],
+        "phases": [
+          {
+            "title": "Har kuni",
+            "tasks": [
+              "Amaliyotdan hikoya-post",
+              "Mijozlarning keng tarqalgan xatosini tahlil qilish",
+              "Chek-list yoki toʻplam",
+              "Soha yangiligi haqida fikr",
+              "Obunachi savoliga javob"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "30 Posts in 30 Days",
+        "short": "Publish expert content every day and find your voice.",
+        "goal": "Build a regular publishing rhythm and find out which topics get reach.",
+        "rules": [
+          "Any platform: blog, social media, Telegram",
+          "Posts of 500+ characters",
+          "Check-in: a link to the post"
+        ],
+        "phases": [
+          {
+            "title": "Daily",
+            "tasks": [
+              "A story post from your own practice",
+              "Break down a common client mistake",
+              "A checklist or roundup",
+              "Your take on industry news",
+              "Answer a follower's question"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "detox-7",
+    "category": "habits",
+    "level": "easy",
+    "days": 7,
+    "icon": "smartphone",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "Цифровой детокс",
+        "short": "Неделя осознанного использования телефона: от 2 часов экранного времени.",
+        "goal": "Сократить экранное время до 2 часов в день и вернуть вечера себе.",
+        "rules": [
+          "Скриншот экранного времени ежедневно",
+          "После 21:00 — телефон не в спальне"
+        ],
+        "phases": [
+          {
+            "title": "Неделя",
+            "tasks": [
+              "Удалите 3 самых затягивающих приложения",
+              "Отключите все уведомления, кроме звонков",
+              "Утро без телефона до 10:00",
+              "Вечер без экрана после 21:00",
+              "Прогулка без телефона",
+              "Экранное время меньше 2 часов",
+              "Итоги недели"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Raqamli detoks",
+        "short": "Telefondan ongli foydalanish haftasi: ekran vaqti 2 soatdan.",
+        "goal": "Ekran vaqtini kuniga 2 soatgacha qisqartirish va kechqurunlarni oʻzingizga qaytarish.",
+        "rules": [
+          "Har kuni ekran vaqti skrinshoti",
+          "21:00 dan keyin telefon yotoqxonada boʻlmaydi"
+        ],
+        "phases": [
+          {
+            "title": "Hafta",
+            "tasks": [
+              "Eng koʻp vaqt oladigan 3 ta ilovani oʻchiring",
+              "Qoʻngʻiroqlardan tashqari barcha bildirishnomalarni oʻchiring",
+              "Soat 10:00 gacha telefonsiz tong",
+              "21:00 dan keyin ekransiz kechqurun",
+              "Telefonsiz sayr",
+              "Ekran vaqti 2 soatdan kam",
+              "Hafta yakunlari"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Digital Detox",
+        "short": "A week of mindful phone use: from 2 hours of screen time.",
+        "goal": "Cut screen time to 2 hours a day and take your evenings back.",
+        "rules": [
+          "Daily screen time screenshot",
+          "After 21:00, no phone in the bedroom"
+        ],
+        "phases": [
+          {
+            "title": "The week",
+            "tasks": [
+              "Delete your 3 most addictive apps",
+              "Turn off all notifications except calls",
+              "No phone in the morning until 10:00",
+              "No screens in the evening after 21:00",
+              "A walk without your phone",
+              "Screen time under 2 hours",
+              "Week wrap-up"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "plank-30",
+    "category": "sport",
+    "level": "medium",
+    "days": 30,
+    "icon": "timer",
+    "nextStart": "2026-10-19",
+    "proof": "required",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "Планка: 30 дней",
+        "short": "Каждый день короткая тренировка кора: от 3 × 20 секунд до 2 минут без остановки.",
+        "goal": "Укрепить мышцы кора и спины, научиться держать правильную технику и к финишу простоять в планке 2+ минуты.",
+        "rules": [
+          "Чекин — фото или видео с таймером во время планки",
+          "Спина прямая, таз не провисает; при боли в пояснице сразу остановитесь",
+          "Не держите время целиком — делите на подходы с отдыхом 30 секунд",
+          "Пропущенный день не догоняем двойной нагрузкой"
+        ],
+        "phases": [
+          {
+            "title": "Основа",
+            "tasks": [
+              "Планка на предплечьях 3 × 20 секунд, отдых 30 секунд",
+              "Планка 3 × 25 секунд",
+              "Отдых: растяжка спины и бедер 10 минут",
+              "Планка 3 × 30 секунд",
+              "Боковая планка 2 × 15 секунд на каждую сторону",
+              "Планка 3 × 35 секунд",
+              "Отдых"
+            ]
+          },
+          {
+            "title": "Выносливость",
+            "tasks": [
+              "Планка 2 × 45 секунд",
+              "Планка 2 × 50 секунд и боковая 2 × 20 секунд на сторону",
+              "Отдых: растяжка 10 минут",
+              "Планка 2 × 60 секунд",
+              "Планка на прямых руках 3 × 30 секунд",
+              "Планка 2 × 65 секунд",
+              "Отдых"
+            ]
+          },
+          {
+            "title": "Усложнение",
+            "tasks": [
+              "Планка 75 секунд + 60 секунд",
+              "Планка с поочередным подъемом ног 3 × 30 секунд",
+              "Отдых",
+              "Планка 90 секунд и боковая 2 × 30 секунд на сторону",
+              "Планка с касанием плеч 3 × 20 касаний",
+              "Планка 100 секунд без остановки",
+              "Отдых: растяжка 10 минут",
+              "Планка 110 секунд без остановки"
+            ]
+          },
+          {
+            "title": "Финиш",
+            "tasks": [
+              "Планка 2 минуты без остановки",
+              "Боковая планка 2 × 40 секунд на сторону",
+              "Отдых",
+              "Планка 2 минуты 15 секунд",
+              "Планка с подъемом ног 3 × 40 секунд",
+              "Отдых",
+              "Легкая разминка: планка 2 × 45 секунд",
+              "Финальный тест: максимум времени с правильной техникой"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Planka: 30 kun",
+        "short": "Har kuni korpus uchun qisqa mashgʻulot: 3 × 20 soniyadan 2 daqiqagacha toʻxtovsiz.",
+        "goal": "Korpus va bel mushaklarini mustahkamlash, toʻgʻri texnikani oʻrganish va marrada plankada 2+ daqiqa turish.",
+        "rules": [
+          "Belgi — planka paytida taymer koʻrinadigan foto yoki video",
+          "Bel tekis, chanoq osilmaydi; belda ogʻriq boʻlsa, darhol toʻxtang",
+          "Vaqtni bir martada ushlab turolmasangiz — 30 soniya dam bilan yondashuvlarga boʻling",
+          "Oʻtkazib yuborilgan kun ikki hissa yuklama bilan qoplanmaydi"
+        ],
+        "phases": [
+          {
+            "title": "Asos",
+            "tasks": [
+              "Bilakda planka 3 × 20 soniya, dam 30 soniya",
+              "Planka 3 × 25 soniya",
+              "Dam olish: bel va son choʻzilishi 10 daqiqa",
+              "Planka 3 × 30 soniya",
+              "Yon planka har tomonga 2 × 15 soniya",
+              "Planka 3 × 35 soniya",
+              "Dam olish"
+            ]
+          },
+          {
+            "title": "Chidamlilik",
+            "tasks": [
+              "Planka 2 × 45 soniya",
+              "Planka 2 × 50 soniya va yon planka har tomonga 2 × 20 soniya",
+              "Dam olish: choʻzilish 10 daqiqa",
+              "Planka 2 × 60 soniya",
+              "Toʻgʻri qoʻllarda planka 3 × 30 soniya",
+              "Planka 2 × 65 soniya",
+              "Dam olish"
+            ]
+          },
+          {
+            "title": "Murakkablashtirish",
+            "tasks": [
+              "Planka 75 soniya + 60 soniya",
+              "Oyoqlarni navbat bilan koʻtarib planka 3 × 30 soniya",
+              "Dam olish",
+              "Planka 90 soniya va yon planka har tomonga 2 × 30 soniya",
+              "Yelkaga tegib planka 3 × 20 marta",
+              "Planka 100 soniya toʻxtovsiz",
+              "Dam olish: choʻzilish 10 daqiqa",
+              "Planka 110 soniya toʻxtovsiz"
+            ]
+          },
+          {
+            "title": "Marra",
+            "tasks": [
+              "Planka 2 daqiqa toʻxtovsiz",
+              "Yon planka har tomonga 2 × 40 soniya",
+              "Dam olish",
+              "Planka 2 daqiqa 15 soniya",
+              "Oyoq koʻtarib planka 3 × 40 soniya",
+              "Dam olish",
+              "Yengil razminka: planka 2 × 45 soniya",
+              "Yakuniy test: toʻgʻri texnika bilan maksimal vaqt"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Plank: 30 days",
+        "short": "A short core workout every day: from 3 × 20 seconds to 2 minutes non-stop.",
+        "goal": "Strengthen your core and back, learn proper form, and hold a plank for 2+ minutes by the finish.",
+        "rules": [
+          "Check-in: a photo or video with a timer visible during the plank",
+          "Keep your back straight and hips level; stop immediately if your lower back hurts",
+          "Can't hold the full time? Split it into sets with 30 seconds of rest",
+          "Don't make up a missed day with double volume"
+        ],
+        "phases": [
+          {
+            "title": "Foundation",
+            "tasks": [
+              "Forearm plank 3 × 20 seconds, 30 seconds rest",
+              "Plank 3 × 25 seconds",
+              "Rest: 10 minutes of back and hip stretching",
+              "Plank 3 × 30 seconds",
+              "Side plank 2 × 15 seconds per side",
+              "Plank 3 × 35 seconds",
+              "Rest"
+            ]
+          },
+          {
+            "title": "Endurance",
+            "tasks": [
+              "Plank 2 × 45 seconds",
+              "Plank 2 × 50 seconds and side plank 2 × 20 seconds per side",
+              "Rest: 10 minutes of stretching",
+              "Plank 2 × 60 seconds",
+              "Straight-arm plank 3 × 30 seconds",
+              "Plank 2 × 65 seconds",
+              "Rest"
+            ]
+          },
+          {
+            "title": "Progression",
+            "tasks": [
+              "Plank 75 seconds + 60 seconds",
+              "Plank with alternating leg lifts 3 × 30 seconds",
+              "Rest",
+              "Plank 90 seconds and side plank 2 × 30 seconds per side",
+              "Plank shoulder taps 3 × 20 taps",
+              "Plank 100 seconds non-stop",
+              "Rest: 10 minutes of stretching",
+              "Plank 110 seconds non-stop"
+            ]
+          },
+          {
+            "title": "Finish",
+            "tasks": [
+              "Plank 2 minutes non-stop",
+              "Side plank 2 × 40 seconds per side",
+              "Rest",
+              "Plank 2 minutes 15 seconds",
+              "Plank with leg lifts 3 × 40 seconds",
+              "Rest",
+              "Light warm-up: plank 2 × 45 seconds",
+              "Final test: your maximum time with proper form"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "yoga-21",
+    "category": "sport",
+    "level": "easy",
+    "days": 21,
+    "icon": "heart",
+    "nextStart": null,
+    "proof": "optional",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "21 день йоги",
+        "short": "15–30 минут мягкой практики в день: гибкость, баланс и спокойное дыхание.",
+        "goal": "Сделать йогу ежедневной привычкой, снять зажимы в спине и бедрах и собрать собственную короткую практику.",
+        "rules": [
+          "Практикуйте натощак или через 2 часа после еды",
+          "Никакой боли: растяжение должно оставаться комфортным",
+          "Используйте коврик и при необходимости опору — подушку или блок",
+          "Отчет по желанию: фото или пара слов о самочувствии"
+        ],
+        "phases": [
+          {
+            "title": "Знакомство",
+            "tasks": [
+              "15 минут: дыхание животом и поза ребенка",
+              "Кошка-корова и собака мордой вниз, 15 минут",
+              "Приветствие солнцу: 3 круга в медленном темпе",
+              "Мягкие скручивания сидя и лежа, 15 минут",
+              "Позы воина I и II по 30 секунд на сторону",
+              "Растяжка задней поверхности бедра, 15 минут",
+              "Отдых или 10 минут дыхания и шавасаны"
+            ]
+          },
+          {
+            "title": "Баланс",
+            "tasks": [
+              "Приветствие солнцу: 5 кругов",
+              "Поза дерева и воина III по 30 секунд на сторону",
+              "Раскрытие тазобедренных и поза голубя, 20 минут",
+              "Мостик 3 × 30 секунд и мягкие прогибы",
+              "Комплекс для спины после рабочего дня, 20 минут",
+              "Позы треугольника и бокового угла",
+              "Отдых или йога-нидра 15 минут"
+            ]
+          },
+          {
+            "title": "Поток",
+            "tasks": [
+              "Приветствие солнцу: 7 кругов",
+              "Связка воинов в потоке, 20 минут",
+              "Балансы: дерево, орел, воин III",
+              "Комплекс для бедер и спины, 25 минут",
+              "Утренняя практика 20 минут до завтрака",
+              "Соберите свою последовательность из любимых поз",
+              "Финальная практика 30 минут и запись ощущений"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "21 kunlik yoga",
+        "short": "Kuniga 15–30 daqiqa yumshoq amaliyot: egiluvchanlik, muvozanat va xotirjam nafas.",
+        "goal": "Yogani kundalik odatga aylantirish, bel va sondagi qotishlarni boʻshatish va oʻzingizning qisqa amaliyotingizni tuzish.",
+        "rules": [
+          "Och qoringa yoki ovqatdan 2 soat keyin shugʻullaning",
+          "Ogʻriq boʻlmasin: choʻzilish qulay boʻlib qolishi kerak",
+          "Gilamcha va kerak boʻlsa tayanch — yostiq yoki blokdan foydalaning",
+          "Hisobot ixtiyoriy: foto yoki holatingiz haqida bir-ikki soʻz"
+        ],
+        "phases": [
+          {
+            "title": "Tanishuv",
+            "tasks": [
+              "15 daqiqa: qorin bilan nafas va bola pozasi",
+              "Mushuk-sigir va pastga qaragan it, 15 daqiqa",
+              "Quyoshga salom: sekin surʼatda 3 aylana",
+              "Oʻtirib va yotib yumshoq burilishlar, 15 daqiqa",
+              "Jangchi I va II pozalari, har tomonga 30 soniya",
+              "Son orqa yuzasini choʻzish, 15 daqiqa",
+              "Dam olish yoki 10 daqiqa nafas va shavasana"
+            ]
+          },
+          {
+            "title": "Muvozanat",
+            "tasks": [
+              "Quyoshga salom: 5 aylana",
+              "Daraxt va jangchi III pozalari, har tomonga 30 soniya",
+              "Chanoq-son boʻgʻimlarini ochish va kaptar pozasi, 20 daqiqa",
+              "Koʻprik 3 × 30 soniya va yumshoq egilishlar",
+              "Ish kunidan keyin bel uchun majmua, 20 daqiqa",
+              "Uchburchak va yon burchak pozalari",
+              "Dam olish yoki yoga-nidra 15 daqiqa"
+            ]
+          },
+          {
+            "title": "Oqim",
+            "tasks": [
+              "Quyoshga salom: 7 aylana",
+              "Jangchilar ketma-ketligi oqimda, 20 daqiqa",
+              "Muvozanatlar: daraxt, burgut, jangchi III",
+              "Son va bel uchun majmua, 25 daqiqa",
+              "Nonushtadan oldin 20 daqiqalik ertalabki amaliyot",
+              "Sevimli pozalaringizdan oʻz ketma-ketligingizni tuzing",
+              "Yakuniy 30 daqiqalik amaliyot va his-tuygʻularni yozib qoʻyish"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "21 days of yoga",
+        "short": "15–30 minutes of gentle practice a day: flexibility, balance and calm breathing.",
+        "goal": "Make yoga a daily habit, release tension in your back and hips, and build a short practice of your own.",
+        "rules": [
+          "Practice on an empty stomach or 2 hours after a meal",
+          "No pain: every stretch should stay comfortable",
+          "Use a mat and, if needed, a prop such as a cushion or block",
+          "Report is optional: a photo or a few words on how you feel"
+        ],
+        "phases": [
+          {
+            "title": "Getting started",
+            "tasks": [
+              "15 minutes: belly breathing and child's pose",
+              "Cat-cow and downward dog, 15 minutes",
+              "Sun salutation: 3 slow rounds",
+              "Gentle seated and lying twists, 15 minutes",
+              "Warrior I and II, 30 seconds per side",
+              "Hamstring stretching, 15 minutes",
+              "Rest or 10 minutes of breathing and savasana"
+            ]
+          },
+          {
+            "title": "Balance",
+            "tasks": [
+              "Sun salutation: 5 rounds",
+              "Tree and warrior III, 30 seconds per side",
+              "Hip openers and pigeon pose, 20 minutes",
+              "Bridge 3 × 30 seconds and gentle backbends",
+              "After-work back routine, 20 minutes",
+              "Triangle and side angle poses",
+              "Rest or 15 minutes of yoga nidra"
+            ]
+          },
+          {
+            "title": "Flow",
+            "tasks": [
+              "Sun salutation: 7 rounds",
+              "Warrior flow sequence, 20 minutes",
+              "Balances: tree, eagle, warrior III",
+              "Hips and back routine, 25 minutes",
+              "20-minute morning practice before breakfast",
+              "Build your own sequence from your favorite poses",
+              "Final 30-minute practice and notes on how you feel"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "sales-sprint",
+    "category": "business",
+    "level": "hard",
+    "days": 14,
+    "icon": "target",
+    "nextStart": "2026-11-02",
+    "proof": "required",
+    "priceUzs": 99000,
+    "content": {
+      "ru": {
+        "title": "Спринт продаж: 14 дней",
+        "short": "Две недели системных продаж: своя воронка, 20+ касаний в день и разбор каждого отказа.",
+        "goal": "Выстроить ежедневный ритм продаж и закрыть первые сделки: 250+ касаний, 10+ встреч и понятная конверсия на каждом этапе воронки.",
+        "rules": [
+          "Чекин — скриншот CRM или таблицы с касаниями за день",
+          "Минимум 20 касаний в день: звонки, сообщения, письма",
+          "Каждый вечер — 10 минут разбора: что сработало, а что нет",
+          "Без спама: только релевантные контакты и честные предложения"
+        ],
+        "phases": [
+          {
+            "title": "Подготовка",
+            "tasks": [
+              "Опишите идеального клиента и 3 его главные боли",
+              "Соберите базу из 100 контактов в таблицу или CRM",
+              "Напишите скрипт первого касания и ответы на 5 возражений",
+              "20 касаний по теплой базе: бывшие клиенты и знакомые"
+            ]
+          },
+          {
+            "title": "Ритм",
+            "tasks": [
+              "20 холодных касаний и фиксация всех ответов",
+              "Назначьте 2 встречи или созвона",
+              "20 касаний и follow-up всем, кто не ответил 3 дня назад",
+              "Проведите встречи по схеме: вопросы → боль → решение",
+              "Посчитайте конверсию каждого этапа воронки"
+            ]
+          },
+          {
+            "title": "Закрытие",
+            "tasks": [
+              "Перепишите самое слабое место скрипта по итогам цифр",
+              "25 касаний и 3 коммерческих предложения",
+              "Попросите 2 рекомендации у довольных клиентов",
+              "Дожмите горячие сделки: звонок с конкретным следующим шагом",
+              "Итоги спринта: цифры, выручка и план продаж на месяц"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Savdo sprinti: 14 kun",
+        "short": "Ikki hafta tizimli savdo: oʻz voronkangiz, kuniga 20+ aloqa va har bir rad javobini tahlil qilish.",
+        "goal": "Kundalik savdo ritmini yoʻlga qoʻyish va ilk bitimlarni yopish: 250+ aloqa, 10+ uchrashuv va voronkaning har bir bosqichida aniq konversiya.",
+        "rules": [
+          "Belgi — kunlik aloqalar koʻrsatilgan CRM yoki jadval skrinshoti",
+          "Kuniga kamida 20 ta aloqa: qoʻngʻiroqlar, xabarlar, xatlar",
+          "Har oqshom 10 daqiqa tahlil: nima ishladi, nima ishlamadi",
+          "Spamsiz: faqat mos kontaktlar va halol takliflar"
+        ],
+        "phases": [
+          {
+            "title": "Tayyorgarlik",
+            "tasks": [
+              "Ideal mijozni va uning 3 asosiy muammosini yozib chiqing",
+              "Jadval yoki CRMda 100 ta kontaktdan iborat baza yigʻing",
+              "Birinchi aloqa skriptini va 5 ta eʼtirozga javoblarni yozing",
+              "Iliq baza boʻyicha 20 ta aloqa: sobiq mijozlar va tanishlar"
+            ]
+          },
+          {
+            "title": "Ritm",
+            "tasks": [
+              "20 ta sovuq aloqa va barcha javoblarni qayd etish",
+              "2 ta uchrashuv yoki qoʻngʻiroq belgilang",
+              "20 ta aloqa va 3 kun oldin javob bermaganlarga follow-up",
+              "Uchrashuvlarni sxema boʻyicha oʻtkazing: savollar → muammo → yechim",
+              "Voronkaning har bir bosqichi konversiyasini hisoblang"
+            ]
+          },
+          {
+            "title": "Yopish",
+            "tasks": [
+              "Raqamlar natijasiga koʻra skriptning eng zaif joyini qayta yozing",
+              "25 ta aloqa va 3 ta tijorat taklifi",
+              "Mamnun mijozlardan 2 ta tavsiya soʻrang",
+              "Issiq bitimlarni yakunlang: aniq keyingi qadam bilan qoʻngʻiroq",
+              "Sprint yakuni: raqamlar, tushum va bir oylik savdo rejasi"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Sales sprint: 14 days",
+        "short": "Two weeks of systematic selling: your own funnel, 20+ touches a day and a review of every rejection.",
+        "goal": "Build a daily sales rhythm and close your first deals: 250+ touches, 10+ meetings and a clear conversion rate at every funnel stage.",
+        "rules": [
+          "Check-in: a screenshot of your CRM or spreadsheet with the day's touches",
+          "At least 20 touches a day: calls, messages, emails",
+          "Every evening, a 10-minute review of what worked and what didn't",
+          "No spam: only relevant contacts and honest offers"
+        ],
+        "phases": [
+          {
+            "title": "Preparation",
+            "tasks": [
+              "Describe your ideal customer and their 3 biggest pains",
+              "Build a list of 100 contacts in a spreadsheet or CRM",
+              "Write a first-touch script and answers to 5 objections",
+              "20 touches to your warm list: past clients and acquaintances"
+            ]
+          },
+          {
+            "title": "Rhythm",
+            "tasks": [
+              "20 cold touches, logging every reply",
+              "Book 2 meetings or calls",
+              "20 touches plus a follow-up to everyone who didn't reply 3 days ago",
+              "Run meetings using the flow: questions → pain → solution",
+              "Calculate the conversion rate at each funnel stage"
+            ]
+          },
+          {
+            "title": "Closing",
+            "tasks": [
+              "Rewrite the weakest part of your script based on the numbers",
+              "25 touches and 3 proposals",
+              "Ask happy clients for 2 referrals",
+              "Push hot deals forward: a call with a concrete next step",
+              "Sprint wrap-up: numbers, revenue and a sales plan for the month"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "networking-21",
+    "category": "business",
+    "level": "medium",
+    "days": 21,
+    "icon": "users",
+    "nextStart": "2026-10-26",
+    "proof": "optional",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "Нетворкинг: 21 день",
+        "short": "Каждый день одно полезное касание: новое знакомство, помощь или восстановленный контакт.",
+        "goal": "Расширить профессиональную сеть на 20+ человек и превратить знакомства в регулярный обмен пользой.",
+        "rules": [
+          "Одно осознанное касание в день — не массовая рассылка",
+          "Сначала дайте пользу, потом просите",
+          "Ведите список: кто, где познакомились, о чем договорились",
+          "Отчет по желанию: с кем и о чем поговорили"
+        ],
+        "phases": [
+          {
+            "title": "Ревизия",
+            "tasks": [
+              "Выпишите 20 человек, с которыми давно не общались, и напишите одному",
+              "Обновите профиль в LinkedIn или Telegram: кто вы и чем полезны",
+              "Поблагодарите коллегу за конкретный результат"
+            ]
+          },
+          {
+            "title": "Новые связи",
+            "tasks": [
+              "Познакомьтесь с одним человеком из своей отрасли",
+              "Оставьте содержательный комментарий эксперту, за которым следите",
+              "Попросите знакомого представить вас нужному человеку"
+            ]
+          },
+          {
+            "title": "Польза",
+            "tasks": [
+              "Познакомьте двух людей, которым полезно знать друг друга",
+              "Поделитесь вакансией, контактом или статьей с тем, кому это нужно",
+              "Пригласите кого-то на кофе или 20-минутный созвон"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Netvorking: 21 kun",
+        "short": "Har kuni bitta foydali aloqa: yangi tanishuv, yordam yoki tiklangan kontakt.",
+        "goal": "Professional tarmoqni 20+ kishiga kengaytirish va tanishuvlarni muntazam foyda almashinuviga aylantirish.",
+        "rules": [
+          "Kuniga bitta ongli aloqa — ommaviy xabar tarqatish emas",
+          "Avval foyda bering, keyin soʻrang",
+          "Roʻyxat yuriting: kim, qayerda tanishdingiz, nima haqida kelishdingiz",
+          "Hisobot ixtiyoriy: kim bilan va nima haqida gaplashdingiz"
+        ],
+        "phases": [
+          {
+            "title": "Qayta koʻrib chiqish",
+            "tasks": [
+              "Uzoq vaqt gaplashmagan 20 kishini yozib chiqing va biriga xabar yozing",
+              "LinkedIn yoki Telegramdagi profilingizni yangilang: kimsiz va qanday foydalisiz",
+              "Hamkasbingizga aniq natijasi uchun minnatdorchilik bildiring"
+            ]
+          },
+          {
+            "title": "Yangi aloqalar",
+            "tasks": [
+              "Oʻz sohangizdan bir kishi bilan tanishing",
+              "Kuzatib boradigan ekspertingizga mazmunli izoh qoldiring",
+              "Tanishingizdan sizni kerakli odamga tanishtirishni soʻrang"
+            ]
+          },
+          {
+            "title": "Foyda",
+            "tasks": [
+              "Bir-birini bilishi foydali boʻlgan ikki kishini tanishtiring",
+              "Vakansiya, kontakt yoki maqolani kerakli odam bilan baham koʻring",
+              "Kimnidir qahvaga yoki 20 daqiqalik qoʻngʻiroqqa taklif qiling"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Networking: 21 days",
+        "short": "One useful touch every day: a new connection, a favor or a revived contact.",
+        "goal": "Grow your professional network by 20+ people and turn new connections into a regular exchange of value.",
+        "rules": [
+          "One intentional touch a day, not a mass mailing",
+          "Give value first, then ask",
+          "Keep a list: who, where you met, what you agreed on",
+          "Report is optional: who you talked to and what about"
+        ],
+        "phases": [
+          {
+            "title": "Audit",
+            "tasks": [
+              "List 20 people you haven't talked to in a while and message one of them",
+              "Update your LinkedIn or Telegram profile: who you are and how you help",
+              "Thank a colleague for a specific result"
+            ]
+          },
+          {
+            "title": "New connections",
+            "tasks": [
+              "Meet one new person from your industry",
+              "Leave a thoughtful comment for an expert you follow",
+              "Ask an acquaintance to introduce you to someone you need"
+            ]
+          },
+          {
+            "title": "Giving value",
+            "tasks": [
+              "Introduce two people who would benefit from knowing each other",
+              "Share a job opening, contact or article with someone who needs it",
+              "Invite someone for coffee or a 20-minute call"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "water-2l",
+    "category": "habits",
+    "level": "easy",
+    "days": 14,
+    "icon": "droplets",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "2 литра воды: 14 дней",
+        "short": "Пейте достаточно воды каждый день и замечайте, как меняются энергия и концентрация.",
+        "goal": "Закрепить привычку пить около 2 литров воды в день без усилий и напоминаний.",
+        "rules": [
+          "Норма — около 2 литров, включая несладкий чай; ориентируйтесь на самочувствие",
+          "При заболеваниях сердца или почек согласуйте объем с врачом",
+          "Сладкие напитки и кофе в норму не входят",
+          "Чекин вечером: сколько выпито за день"
+        ],
+        "phases": [
+          {
+            "title": "Старт",
+            "tasks": [
+              "Стакан воды сразу после пробуждения",
+              "Поставьте бутылку воды на рабочий стол и выпейте ее до обеда",
+              "Стакан воды перед каждым приемом пищи"
+            ]
+          },
+          {
+            "title": "Привычка",
+            "tasks": [
+              "Замените один сладкий напиток водой",
+              "Выпейте 2 литра равномерно, без больших объемов за раз",
+              "Отметьте, как изменились энергия и чувство голода",
+              "2 литра без напоминаний — проверьте, держится ли привычка"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "2 litr suv: 14 kun",
+        "short": "Har kuni yetarlicha suv iching va quvvat hamda diqqat qanday oʻzgarishini kuzating.",
+        "goal": "Kuniga taxminan 2 litr suv ichish odatini zoʻriqishsiz va eslatmalarsiz mustahkamlash.",
+        "rules": [
+          "Meʼyor — taxminan 2 litr, shakarsiz choy bilan birga; holatingizga qarab moʻljal oling",
+          "Yurak yoki buyrak kasalliklarida hajmni shifokor bilan kelishing",
+          "Shirin ichimliklar va qahva meʼyorga kirmaydi",
+          "Belgi kechqurun: kun davomida qancha ichildi"
+        ],
+        "phases": [
+          {
+            "title": "Start",
+            "tasks": [
+              "Uygʻongan zahoti bir stakan suv",
+              "Ish stolingizga bir shisha suv qoʻying va tushlikkacha iching",
+              "Har bir ovqatdan oldin bir stakan suv"
+            ]
+          },
+          {
+            "title": "Odat",
+            "tasks": [
+              "Bitta shirin ichimlikni suvga almashtiring",
+              "2 litrni bir tekisda iching, bir martada koʻp ichmang",
+              "Quvvat va ochlik hissi qanday oʻzgarganini yozib qoʻying",
+              "Eslatmalarsiz 2 litr — odat saqlanayotganini tekshiring"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "2 liters of water: 14 days",
+        "short": "Drink enough water every day and notice how your energy and focus change.",
+        "goal": "Lock in the habit of drinking about 2 liters of water a day without effort or reminders.",
+        "rules": [
+          "The target is about 2 liters, unsweetened tea included; listen to your body",
+          "If you have heart or kidney conditions, agree on the amount with your doctor",
+          "Sugary drinks and coffee don't count",
+          "Evening check-in: how much you drank today"
+        ],
+        "phases": [
+          {
+            "title": "Start",
+            "tasks": [
+              "A glass of water right after waking up",
+              "Put a bottle of water on your desk and finish it before lunch",
+              "A glass of water before every meal"
+            ]
+          },
+          {
+            "title": "Habit",
+            "tasks": [
+              "Replace one sugary drink with water",
+              "Drink 2 liters evenly, without large amounts at once",
+              "Note how your energy and hunger have changed",
+              "2 liters with no reminders: check that the habit holds"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "sleep-23",
+    "category": "habits",
+    "level": "medium",
+    "days": 28,
+    "icon": "moon",
+    "nextStart": "2026-11-16",
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "Отбой в 23:00",
+        "short": "Четыре недели ложимся до 23:00 и встаем в одно время — даже в выходные.",
+        "goal": "Наладить стабильный режим сна 7–8 часов и просыпаться бодрым без пяти будильников.",
+        "rules": [
+          "Чекин утром: во сколько легли и встали",
+          "Подъем в одно время ±30 минут, включая выходные",
+          "Экраны — не позже чем за 30 минут до сна",
+          "Кофеин — не позже 14:00"
+        ],
+        "phases": [
+          {
+            "title": "Сдвиг",
+            "tasks": [
+              "Лягте на 15 минут раньше обычного",
+              "Выберите фиксированное время подъема и поставьте один будильник",
+              "Уберите телефон из кровати: зарядка в другом конце комнаты"
+            ]
+          },
+          {
+            "title": "Ритуал",
+            "tasks": [
+              "Вечерний ритуал 20 минут: душ, чтение, приглушенный свет",
+              "Отбой в 23:30",
+              "Проветрите спальню перед сном"
+            ]
+          },
+          {
+            "title": "Режим",
+            "tasks": [
+              "Отбой в 23:00",
+              "Последний прием пищи за 3 часа до сна",
+              "Перед сном выпишите тревожные мысли на бумагу"
+            ]
+          },
+          {
+            "title": "Закрепление",
+            "tasks": [
+              "Отбой в 23:00 без исключений",
+              "Утром 10 минут дневного света",
+              "Оцените сон по шкале 1–10 и сравните с первой неделей"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "23:00 da uyqu",
+        "short": "Toʻrt hafta 23:00 gacha yotamiz va bir vaqtda turamiz — dam olish kunlari ham.",
+        "goal": "7–8 soatlik barqaror uyqu tartibini yoʻlga qoʻyish va beshta budilniksiz tetik uygʻonish.",
+        "rules": [
+          "Belgi ertalab: soat nechada yotdingiz va turdingiz",
+          "Dam olish kunlari ham bir vaqtda ±30 daqiqa turish",
+          "Ekranlar — uyqudan kamida 30 daqiqa oldin oʻchiriladi",
+          "Kofein — soat 14:00 dan kechiktirmay"
+        ],
+        "phases": [
+          {
+            "title": "Siljish",
+            "tasks": [
+              "Odatdagidan 15 daqiqa erta yoting",
+              "Doimiy turish vaqtini tanlang va bitta budilnik qoʻying",
+              "Telefonni karavotdan olib qoʻying: quvvatlagich xonaning narigi chetida"
+            ]
+          },
+          {
+            "title": "Marosim",
+            "tasks": [
+              "20 daqiqalik kechki marosim: dush, kitob, xira yorugʻlik",
+              "23:30 da uyqu",
+              "Uxlashdan oldin yotoqxonani shamollating"
+            ]
+          },
+          {
+            "title": "Tartib",
+            "tasks": [
+              "23:00 da uyqu",
+              "Oxirgi ovqat uyqudan 3 soat oldin",
+              "Uxlashdan oldin bezovta qilayotgan fikrlarni qogʻozga yozing"
+            ]
+          },
+          {
+            "title": "Mustahkamlash",
+            "tasks": [
+              "Istisnosiz 23:00 da uyqu",
+              "Ertalab 10 daqiqa kunduzgi yorugʻlik",
+              "Uyquni 1–10 shkalada baholang va birinchi hafta bilan solishtiring"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Lights out at 11 pm",
+        "short": "Four weeks of going to bed by 11 pm and getting up at the same time, weekends included.",
+        "goal": "Settle into a steady 7–8 hour sleep schedule and wake up refreshed without five alarms.",
+        "rules": [
+          "Morning check-in: when you went to bed and got up",
+          "Wake up at the same time ±30 minutes, weekends included",
+          "Screens off at least 30 minutes before bed",
+          "No caffeine after 2 pm"
+        ],
+        "phases": [
+          {
+            "title": "Shift",
+            "tasks": [
+              "Go to bed 15 minutes earlier than usual",
+              "Pick a fixed wake-up time and set just one alarm",
+              "Get your phone out of bed: charge it across the room"
+            ]
+          },
+          {
+            "title": "Ritual",
+            "tasks": [
+              "A 20-minute evening ritual: shower, reading, dim lights",
+              "Lights out at 11:30 pm",
+              "Air out the bedroom before bed"
+            ]
+          },
+          {
+            "title": "Routine",
+            "tasks": [
+              "Lights out at 11 pm",
+              "Last meal 3 hours before bed",
+              "Write down anxious thoughts on paper before bed"
+            ]
+          },
+          {
+            "title": "Lock-in",
+            "tasks": [
+              "Lights out at 11 pm, no exceptions",
+              "10 minutes of daylight in the morning",
+              "Rate your sleep from 1 to 10 and compare it with week one"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "code-60",
+    "category": "growth",
+    "level": "hard",
+    "days": 60,
+    "icon": "code",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 39000,
+    "content": {
+      "ru": {
+        "title": "60 дней кода",
+        "short": "Одна задача по программированию каждый день: от алгоритмов до собственного проекта.",
+        "goal": "Решить 60 задач, уверенно владеть базовыми структурами данных и собрать свой pet-проект с тестами.",
+        "rules": [
+          "Минимум 45 минут кода в день, язык — любой",
+          "Каждое решение сохраняйте в свой репозиторий",
+          "Подсмотрели решение — на следующий день напишите его сами с нуля",
+          "Чекин: пара строк о том, что решили и чему научились"
+        ],
+        "phases": [
+          {
+            "title": "Основы",
+            "tasks": [
+              "Задача на строки: разворот, палиндромы, подсчет символов",
+              "Задача на массивы: поиск, сортировка, два указателя",
+              "Задача на хеш-таблицы: частоты и дубликаты",
+              "Разбор: перепишите вчерашнее решение чище и короче"
+            ]
+          },
+          {
+            "title": "Структуры",
+            "tasks": [
+              "Задача на стек или очередь",
+              "Задача на рекурсию",
+              "Задача на деревья: обход в глубину и в ширину",
+              "Задача на бинарный поиск"
+            ]
+          },
+          {
+            "title": "Проект",
+            "tasks": [
+              "Спланируйте pet-проект: опишите 5 функций в README",
+              "Реализуйте одну функцию проекта",
+              "Напишите тесты к вчерашнему коду",
+              "Рефакторинг и коммит с понятным описанием"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "60 kunlik kod",
+        "short": "Har kuni bitta dasturlash masalasi: algoritmlardan oʻz loyihangizgacha.",
+        "goal": "60 ta masala yechish, asosiy maʼlumotlar tuzilmalarini ishonchli egallash va testlari bor oʻz pet-loyihangizni yaratish.",
+        "rules": [
+          "Kuniga kamida 45 daqiqa kod, til — istalgan",
+          "Har bir yechimni oʻz repozitoriyingizga saqlang",
+          "Yechimni koʻrib oldingizmi — ertasi kuni uni noldan oʻzingiz yozing",
+          "Belgi: nimani yechganingiz va nimani oʻrganganingiz haqida bir-ikki qator"
+        ],
+        "phases": [
+          {
+            "title": "Asoslar",
+            "tasks": [
+              "Satrlar boʻyicha masala: teskari aylantirish, palindromlar, belgilarni sanash",
+              "Massivlar boʻyicha masala: qidiruv, saralash, ikki koʻrsatkich",
+              "Xesh-jadvallar boʻyicha masala: chastotalar va dublikatlar",
+              "Tahlil: kechagi yechimni toza va qisqaroq qilib qayta yozing"
+            ]
+          },
+          {
+            "title": "Tuzilmalar",
+            "tasks": [
+              "Stek yoki navbat boʻyicha masala",
+              "Rekursiya boʻyicha masala",
+              "Daraxtlar boʻyicha masala: chuqurlik va kenglik boʻyicha aylanib chiqish",
+              "Ikkilik qidiruv boʻyicha masala"
+            ]
+          },
+          {
+            "title": "Loyiha",
+            "tasks": [
+              "Pet-loyihani rejalashtiring: READMEda 5 ta funksiyani tasvirlang",
+              "Loyihaning bitta funksiyasini amalga oshiring",
+              "Kechagi kodga testlar yozing",
+              "Refaktoring va tushunarli tavsifli kommit"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "60 days of code",
+        "short": "One programming task every day: from algorithms to a project of your own.",
+        "goal": "Solve 60 problems, get confident with core data structures and build your own pet project with tests.",
+        "rules": [
+          "At least 45 minutes of coding a day, any language",
+          "Save every solution to your own repository",
+          "Peeked at a solution? Write it yourself from scratch the next day",
+          "Check-in: a couple of lines on what you solved and what you learned"
+        ],
+        "phases": [
+          {
+            "title": "Basics",
+            "tasks": [
+              "String problem: reversal, palindromes, character counts",
+              "Array problem: search, sorting, two pointers",
+              "Hash table problem: frequencies and duplicates",
+              "Review: rewrite yesterday's solution cleaner and shorter"
+            ]
+          },
+          {
+            "title": "Structures",
+            "tasks": [
+              "Stack or queue problem",
+              "Recursion problem",
+              "Tree problem: depth-first and breadth-first traversal",
+              "Binary search problem"
+            ]
+          },
+          {
+            "title": "Project",
+            "tasks": [
+              "Plan a pet project: describe 5 features in the README",
+              "Implement one feature of the project",
+              "Write tests for yesterday's code",
+              "Refactor and commit with a clear message"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  {
+    "slug": "pomodoro-7",
+    "category": "growth",
+    "level": "easy",
+    "days": 7,
+    "icon": "focus",
+    "nextStart": null,
+    "proof": "none",
+    "priceUzs": 0,
+    "content": {
+      "ru": {
+        "title": "Помодоро: неделя фокуса",
+        "short": "7 дней работы по технике помидора: 25 минут фокуса, 5 минут отдыха.",
+        "goal": "Научиться работать без отвлечений и к концу недели выдавать 8 полноценных помидоров в день.",
+        "rules": [
+          "Помидор — 25 минут над одной задачей без уведомлений и соцсетей",
+          "После 4 помидоров — длинный перерыв 15–30 минут",
+          "Прервались — помидор не засчитывается, начните заново",
+          "Чекин вечером: сколько помидоров сделано"
+        ],
+        "phases": [
+          {
+            "title": "Настройка",
+            "tasks": [
+              "4 помидора и список задач с утра",
+              "5 помидоров с отключенными уведомлениями",
+              "6 помидоров, записывайте каждое отвлечение на бумагу"
+            ]
+          },
+          {
+            "title": "Ритм",
+            "tasks": [
+              "6 помидоров, самая сложная задача — первой",
+              "7 помидоров, перерывы без телефона",
+              "8 помидоров в двух блоках по 4",
+              "8 помидоров и итоги недели: что мешало и что помогло"
+            ]
+          }
+        ]
+      },
+      "uz": {
+        "title": "Pomodoro: diqqat haftasi",
+        "short": "Pomidor usulida 7 kun ishlash: 25 daqiqa diqqat, 5 daqiqa dam.",
+        "goal": "Chalgʻimasdan ishlashni oʻrganish va hafta oxiriga kelib kuniga 8 ta toʻliq pomidor bajarish.",
+        "rules": [
+          "Pomidor — bildirishnomalar va ijtimoiy tarmoqlarsiz bitta vazifa ustida 25 daqiqa",
+          "4 ta pomidordan keyin 15–30 daqiqalik uzun tanaffus",
+          "Chalgʻidingizmi — pomidor hisoblanmaydi, qaytadan boshlang",
+          "Belgi kechqurun: nechta pomidor bajarildi"
+        ],
+        "phases": [
+          {
+            "title": "Sozlash",
+            "tasks": [
+              "4 ta pomidor va ertalabdan vazifalar roʻyxati",
+              "Bildirishnomalar oʻchirilgan holda 5 ta pomidor",
+              "6 ta pomidor, har bir chalgʻishni qogʻozga yozing"
+            ]
+          },
+          {
+            "title": "Ritm",
+            "tasks": [
+              "6 ta pomidor, eng qiyin vazifa — birinchi",
+              "7 ta pomidor, tanaffuslar telefonsiz",
+              "4 tadan ikki blokda 8 ta pomidor",
+              "8 ta pomidor va hafta yakuni: nima xalaqit berdi, nima yordam berdi"
+            ]
+          }
+        ]
+      },
+      "en": {
+        "title": "Pomodoro: a week of focus",
+        "short": "7 days with the Pomodoro technique: 25 minutes of focus, 5 minutes of rest.",
+        "goal": "Learn to work without distractions and reach 8 full pomodoros a day by the end of the week.",
+        "rules": [
+          "A pomodoro is 25 minutes on one task with no notifications or social media",
+          "After 4 pomodoros, take a long 15–30 minute break",
+          "Interrupted? That pomodoro doesn't count, start over",
+          "Evening check-in: how many pomodoros you completed"
+        ],
+        "phases": [
+          {
+            "title": "Setup",
+            "tasks": [
+              "4 pomodoros and a task list first thing in the morning",
+              "5 pomodoros with notifications turned off",
+              "6 pomodoros, writing every distraction down on paper"
+            ]
+          },
+          {
+            "title": "Rhythm",
+            "tasks": [
+              "6 pomodoros, hardest task first",
+              "7 pomodoros, breaks without your phone",
+              "8 pomodoros in two blocks of 4",
+              "8 pomodoros and a weekly review: what got in the way and what helped"
+            ]
+          }
+        ]
+      }
+    }
+  }
+]

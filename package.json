@@ -1,0 +1,27 @@
+{
+  "name": "rubikon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Рубикон — платформа челленджей и марафонов",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:explicit": "node scripts/build.mjs --explicit",
+    "build:demo": "node scripts/build.mjs --demo",
+    "preview": "node scripts/build.mjs && node scripts/serve.mjs",
+    "serve": "node scripts/serve.mjs",
+    "icons": "node scripts/gen-icons.mjs",
+    "og": "node scripts/gen-og.mjs",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "node --test \"tests/unit/*.test.mjs\"",
+    "test:e2e": "node scripts/build.mjs --demo --out=.e2e-dist && CATALOG_SOURCE=json SITE_URL=https://rubikon.example.com SUPABASE_URL=https://fake-project.supabase.co SUPABASE_ANON_KEY=test-anon-key node scripts/build.mjs --out=.e2e-prod && node --test --test-concurrency=1 \"tests/e2e/*.test.mjs\"",
+    "test:sql": "bash tests/sql/run.sh"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0"
+  }
+}
