@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { buildIcs, deadlinesForMonth, shiftToWorkingDay, upcomingDeadlines } from './calendar.js';
+import { buildIcs, foldLine, deadlinesForMonth, shiftToWorkingDay, upcomingDeadlines } from './calendar.js';
 
 describe('calendar', () => {
   it('shifts weekend deadlines to Monday', () => {
@@ -29,5 +29,20 @@ describe('calendar', () => {
     const ics = buildIcs(new Date(2026, 9, 3), 2);
     expect(ics.startsWith('BEGIN:VCALENDAR')).toBe(true);
     expect(ics.match(/BEGIN:VEVENT/g).length).toBeGreaterThan(2);
+  });
+
+  it('escapes text, folds long lines and ends with CRLF', () => {
+    const ics = buildIcs(new Date(2026, 9, 3), 2);
+    expect(ics.endsWith('END:VCALENDAR\r\n')).toBe(true);
+    expect(ics).toContain('SUMMARY:НДФЛ\\, соц. налог и ИНПС — срок');
+    const enc = new TextEncoder();
+    for (const line of ics.split('\r\n')) expect(enc.encode(line).length).toBeLessThanOrEqual(75);
+    const unfolded = ics.replace(/\r\n /g, '');
+    expect(unfolded).toContain('DESCRIPTION:Расчёт и уплата за прошлый месяц по зарплате сотрудников');
+  });
+
+  it('folds without splitting multibyte characters', () => {
+    const folded = foldLine('DESCRIPTION:' + 'ж'.repeat(100));
+    expect(folded.replace(/\r\n /g, '')).toBe('DESCRIPTION:' + 'ж'.repeat(100));
   });
 });

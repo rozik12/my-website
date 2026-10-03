@@ -6,8 +6,8 @@ export function groupDigits(value, sep = NBSP) {
   return sign + String(Math.abs(n)).replace(/\B(?=(\d{3})+(?!\d))/g, sep);
 }
 
-export function formatSum(value) {
-  return `${groupDigits(value)}${NBSP}сум`;
+export function formatSum(value, groupSep = NBSP) {
+  return `${groupDigits(value, groupSep)}${NBSP}сум`;
 }
 
 export function formatPercent(rate) {

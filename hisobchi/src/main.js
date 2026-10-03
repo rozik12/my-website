@@ -75,6 +75,16 @@ function formatWhileTyping() {
   render();
 }
 
+// Big result figures shrink with length; group separators are regular spaces so an overlong value wraps between groups, never inside one.
+function setFittedSum(el, value, sizes) {
+  const text = formatSum(value, ' ');
+  el.textContent = text;
+  const all = sizes.flatMap(([, cls]) => cls.split(' '));
+  el.classList.remove(...all);
+  const [, cls] = sizes.find(([max]) => text.length <= max);
+  el.classList.add(...cls.split(' '));
+}
+
 function render() {
   const rates = { ...DEFAULT_RATES, social: socialRate() };
   const monthly = calculate({ amount: state.amount ?? 0, mode: state.mode, rates });
@@ -87,7 +97,12 @@ function render() {
   socialSelect.value = state.socialPreset;
   customSocialWrap.classList.toggle('hidden', state.socialPreset !== 'custom');
 
-  $('#r-net').textContent = formatSum(r.net);
+  setFittedSum($('#r-net'), r.net, [
+    [13, 'text-3xl sm:text-4xl'],
+    [17, 'text-2xl sm:text-4xl'],
+    [21, 'text-xl sm:text-3xl'],
+    [Infinity, 'text-lg sm:text-2xl'],
+  ]);
   $('#r-gross-top').textContent = formatSum(r.gross);
   $('#r-gross').textContent = formatSum(r.gross);
   $('#r-pit').textContent = `− ${formatSum(r.pitTotal)}`;
@@ -96,7 +111,11 @@ function render() {
   $('#r-net-row').textContent = formatSum(r.net);
   $('#r-social').textContent = `+ ${formatSum(r.socialTax)}`;
   $('#r-social-rate').textContent = formatPercent(rates.social);
-  $('#r-total').textContent = formatSum(r.totalCost);
+  setFittedSum($('#r-total'), r.totalCost, [
+    [13, 'text-lg sm:text-xl'],
+    [21, 'text-base sm:text-xl'],
+    [Infinity, 'text-sm sm:text-lg'],
+  ]);
 
   const total = r.totalCost || 1;
   const pct = (v) => `${((v / total) * 100).toFixed(2)}%`;

@@ -95,6 +95,29 @@ export function upcomingDeadlines(today = new Date(), count = 5) {
   return result.sort((a, b) => a.date - b.date);
 }
 
+const escapeText = (text) => String(text).replace(/\\/g, '\\\\').replace(/([,;])/g, '\\$1').replace(/\r?\n/g, '\\n');
+
+// RFC 5545 §3.1: lines longer than 75 octets are folded (CRLF + space), without splitting UTF-8 characters.
+export function foldLine(line) {
+  const encoder = new TextEncoder();
+  const parts = [];
+  let current = '';
+  let bytes = 0;
+  for (const ch of line) {
+    const size = encoder.encode(ch).length;
+    const limit = parts.length === 0 ? 75 : 74;
+    if (bytes + size > limit) {
+      parts.push(current);
+      current = '';
+      bytes = 0;
+    }
+    current += ch;
+    bytes += size;
+  }
+  parts.push(current);
+  return parts.join('\r\n ');
+}
+
 const pad = (n) => String(n).padStart(2, '0');
 const icsDate = (d) => `${d.getFullYear()}${pad(d.getMonth() + 1)}${pad(d.getDate())}`;
 
@@ -113,17 +136,17 @@ export function buildIcs(today = new Date(), months = 12) {
         `DTSTAMP:${icsDate(from)}T000000Z`,
         `DTSTART;VALUE=DATE:${icsDate(d.date)}`,
         `DTEND;VALUE=DATE:${icsDate(end)}`,
-        `SUMMARY:${d.title} — срок`,
-        `DESCRIPTION:${d.description}`,
+        `SUMMARY:${escapeText(`${d.title} — срок`)}`,
+        `DESCRIPTION:${escapeText(d.description)}`,
         'BEGIN:VALARM',
         'TRIGGER:-P2D',
         'ACTION:DISPLAY',
-        `DESCRIPTION:Через 2 дня: ${d.title}`,
+        `DESCRIPTION:${escapeText(`Через 2 дня: ${d.title}`)}`,
         'END:VALARM',
         'END:VEVENT',
       );
     }
   }
   lines.push('END:VCALENDAR');
-  return lines.join('\r\n');
+  return `${lines.map(foldLine).join('\r\n')}\r\n`;
 }
